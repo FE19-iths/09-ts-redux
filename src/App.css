@@ -7,3 +7,19 @@
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+main {
+    padding: 1em;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+.product-grid > * {
+    border: 1px solid darkgray;
+    box-shadow: 13px 10px 18px -8px rgba(0,0,0,0.75);
+    padding: 1em;
+    /* margin: 1em; */
+}
