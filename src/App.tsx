@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import ProductGrid from './components/ProductGrid';
 import Product from './models/Product';
+import HelloUser from './components/HelloUser';
 
 function App() {
     const [products/*, setProducts*/] = useState(getDefaultProducts());
@@ -13,6 +14,8 @@ function App() {
         <main>
             <h2> Buy a new language! </h2>
             <ProductGrid products={products} />
+
+            <HelloUser />
         </main>
         </div>
     );
