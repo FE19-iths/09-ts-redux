@@ -3,6 +3,7 @@ import './App.css';
 import ProductGrid from './components/ProductGrid';
 import Product from './models/Product';
 import HelloUser from './components/HelloUser';
+import ViewCart from './components/ViewCart';
 
 function App() {
     const [products/*, setProducts*/] = useState(getDefaultProducts());
@@ -16,6 +17,8 @@ function App() {
             <ProductGrid products={products} />
 
             <HelloUser />
+
+            <ViewCart />
         </main>
         </div>
     );
